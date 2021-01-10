@@ -10,15 +10,9 @@
   "author": "ochang@google.com",
   "license": "ISC",
   "dependencies": {
-    "@babel/generator": "^7.12.11",
-    "@babel/template": "^7.12.7",
-    "@babel/traverse": "^7.12.10",
-    "@babel/types": "^7.12.11",
-    "@babel/parser": "^7.12.11",
-    "commander": "^2.11.0",
-    "globals": "^10.1.0",
+
     "tempfile": "^3.0.0",
-    "tempy": "^0.5.0"
+    "tempy": "^0.7.1"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
