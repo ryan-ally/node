@@ -4,24 +4,27 @@
   "description": "",
   "main": "run.js",
   "scripts": {
-    "test": "APP_NAME=d8 mocha"
+    "test": "APP_NAME=d8 mocha",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "bin": "run.js",
   "author": "ochang@google.com",
   "license": "ISC",
   "dependencies": {
-
     "tempfile": "^3.0.0",
-    "tempy": "^0.7.1"
+    "tempy": "^0.7.1",
+    "snyk": "^1.489.0"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
-    "mocha": "^3.5.3",
-    "pkg": "^4.3.4",
+    "mocha": "^6.2.3",
+    "pkg": "^4.4.1",
     "prettier": "2.0.5",
     "sinon": "^4.0.0"
   },
   "pkg": {
     "assets": "resources/**/*"
-  }
+  },
+  "snyk": true
 }
