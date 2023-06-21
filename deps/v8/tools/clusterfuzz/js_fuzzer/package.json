@@ -17,9 +17,9 @@
     "snyk": "^1.489.0"
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
+    "eslint": "^7.0.0",
     "mocha": "^6.2.3",
-    "pkg": "^4.4.1",
+    "pkg": "^5.0.0",
     "prettier": "2.0.5",
     "sinon": "^4.0.0"
   },
