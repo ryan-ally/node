@@ -42,7 +42,7 @@
     "./package.json": "./package.json"
   },
   "dependencies": {
-    "@npmcli/arborist": "^2.0.2",
+    "@npmcli/arborist": "^8.0.0",
     "@npmcli/ci-detect": "^1.2.0",
     "@npmcli/config": "^1.2.8",
     "@npmcli/run-script": "^1.8.1",
@@ -66,7 +66,7 @@
     "is-cidr": "^4.0.2",
     "leven": "^3.1.0",
     "libnpmaccess": "^4.0.1",
-    "libnpmfund": "^1.0.2",
+    "libnpmfund": "^6.0.0",
     "libnpmhook": "^6.0.1",
     "libnpmorg": "^2.0.1",
     "libnpmpack": "^2.0.0",
